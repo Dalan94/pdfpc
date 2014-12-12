@@ -208,8 +208,8 @@ namespace pdfpc.Metadata {
          * with the notes or the skips)
          */
         public void save_to_disk() {
-            string contents =   format_duration()
-                              + format_skips()
+            string contents =   //format_duration() +
+                               format_skips()
                               + format_end_user_slide()
                               + format_notes();
             try {

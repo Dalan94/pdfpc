@@ -177,7 +177,7 @@ namespace pdfpc {
 
             ConfigFileReader configFileReader = new ConfigFileReader(this.controller);
             configFileReader.readConfig(etc_path + "/pdfpcrc");
-            configFileReader.readConfig(Environment.get_home_dir() + "/.pdfpcrc");
+            configFileReader.readConfig("./pdfpcrc");
 
             var screen = Gdk.Screen.get_default();
             if ( !Options.windowed && !Options.single_screen && screen.get_n_monitors() > 1 ) {

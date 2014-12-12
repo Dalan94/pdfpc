@@ -27,6 +27,9 @@ requirements need to be met:
 - Gtk+ 2.x
 - libPoppler with glib bindings
 - librsvg
+- libgee
+- libgtreamer-0.10
+- valac <= 0.20
 
 Compile and install
 ===================
